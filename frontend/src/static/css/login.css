@@ -1,0 +1,90 @@
+.loginContainer {
+    flex: 12;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(244, 247, 254, 0.747);
+}
+
+.loginWrapper {
+    width: 60%;
+    height: 70%;
+    display: flex;
+}
+
+.loginLeft,
+.loginRight {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.loginLeft {
+    text-align: left;
+}
+
+.loginRight {
+    flex-direction: column;
+    background-color: white;
+    /* リストに影をつける */
+    /* リストに影をつける */
+    box-shadow: 3px 7px 13px -10px #65789f;
+    border-radius: 10px;
+    height: 300px;
+    margin: auto;
+}
+
+.loginRightText {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.userInfo {
+    width: 90%;
+    height: 30px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.userLogin {
+    width: 90%;
+    height: 30px;
+    margin: 5px auto;
+    border-radius: 5px;
+    color: white;
+    background-color: #41428b;
+    cursor: pointer;
+}
+
+.forgetPassword {
+    color: black;
+    text-decoration-line: none;
+}
+
+.createAccount {
+    color: white;
+    background-color: green;
+    width: 70%;
+    height: 30px;
+    margin: 5% auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loginTitle {
+    color: #41428b;
+    margin-bottom: 10px;
+}
+
+.loginTitleText {
+    
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+}

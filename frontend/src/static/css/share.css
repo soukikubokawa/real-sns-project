@@ -1,0 +1,64 @@
+.share {
+    height: 150px;
+    /* リストに影をつける */
+    box-shadow: 3px 7px 13px -10px #65789f;
+    border-radius: 10px;
+}
+
+.shareWrapper {
+    padding: 10px;
+}
+
+.shareTop {
+    display: flex;
+    align-items: center;
+}
+
+.shareProfileImg {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.shareInput {
+    border: none;
+}
+.shareInput:focus {
+    outline: none;
+}
+
+.shareHr {
+    margin: 20px;
+    width: 95%;
+}
+
+.shareButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shareOptions {
+    display: flex;
+}
+
+.shareOption {
+    display: flex;
+    margin-right: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.shareOptionText {
+    font-size: 15px;
+}
+
+.shareButton {
+    border: none;
+    background-color: #2c517c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

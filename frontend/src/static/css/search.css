@@ -1,0 +1,16 @@
+.searchContainer {
+    display: flex;
+    margin-bottom: 5px;
+    padding-left: 40px;
+}
+
+.searchInputPicture {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* .searchInputName {
+
+} */

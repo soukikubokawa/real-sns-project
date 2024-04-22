@@ -1,0 +1,75 @@
+.post {
+    /* リストに影をつける */
+    box-shadow: 3px 7px 13px -10px #65789f;
+    border-radius: 10px;
+}
+
+.postWrapper {
+    padding: 10px;
+}
+
+.postProfileImg {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.postTop {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.postLeft {
+    display: flex;
+    align-items: center;
+}
+
+.moreVert {
+    cursor: pointer;
+}
+
+.postUsername {
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.postDate {
+    font-size: small;
+}
+
+.postImg {
+    margin: 10px 0;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.postBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBottomLeft {
+    display: flex;
+    align-items: center;
+}
+
+.likeIcon {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.postLikeCounter {
+    margin-left: 10px;
+}
+
+.postCommentText {
+    cursor: pointer;
+    text-decoration: underline;
+}

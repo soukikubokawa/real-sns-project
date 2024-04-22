@@ -1,0 +1,74 @@
+.sidebar {
+    flex: 3;
+}
+
+.sidebarWrapper {
+    padding: 5%;
+}
+
+.sidebarList {
+    padding: 0;
+    margin: 0;
+    /* <li>使用時の・を削除する */
+    list-style: none;
+}
+
+.sidebarListItem {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    cursor: pointer;
+    /* リストに影をつける */
+    box-shadow: 3px 7px 13px -10px #65789f;
+    border-radius: 10px;
+    /* リストを沈ませるのにかかる時間を指定 */
+    /* この場合、0.3秒でゆっくり沈む */
+    /* transition: all 0.3s; */
+}
+
+/* カーソルを上乗せしたときの挙動 */
+.sidebarListItem:hover {
+    /* リストの影を消す */
+    box-shadow: none;
+    /* リストを沈ませる */
+    transform: translateY(5px);
+}
+
+.sidebarIcon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.sidebarListItemText {
+    align-content: center;
+}
+
+.sidebarHr {
+    margin: 20px 0;
+}
+
+.sidebarFriendList {
+    list-style: none;
+    padding: 0;
+
+}
+
+.sidebarFriend {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.sidebarFriendImg {
+    width: 30px;
+    height: 30px;
+    /* 適切に画像の比率を調整する */
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sidebarFriendName {
+    font-size: small;
+}

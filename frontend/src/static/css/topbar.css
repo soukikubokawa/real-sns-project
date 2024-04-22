@@ -1,0 +1,88 @@
+.topbarContainer {
+    background-color: #2c517c;
+    height: 60px;
+    align-items: center;
+    /* 子要素のdivタグを横並びにする */
+    display: flex;
+    position: relative;
+}
+
+.topbarLeft {
+    flex: 3;
+}
+
+.topbarCenter {
+    flex: 5;
+    position: relative;
+}
+
+.topbarRight {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.searchbar {
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    bottom: -10px;
+    z-index: 1;
+}
+
+.searchInputList {
+    width: 100%;
+    position: absolute;
+    background-color: rgb(240, 240, 240);
+    top: -5px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+.searchIcon {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.searchInput {
+    border: none;
+    width: 80%;
+    background-color: rgb(240, 240, 240);
+}
+.searchInput:focus {
+    outline: none;
+}
+
+.topbarIconItem {
+    margin: 0 2%;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    margin-top: 2%;
+}
+
+.topbarIconBadge {
+    position: absolute;
+    top: -10px;
+    right: -7px;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.topbarImg {
+    height: 6vh;
+    margin-right: 10px;
+    border-radius: 50%;
+}

@@ -1,0 +1,110 @@
+.rightbar {
+    flex: 3;
+    /* リストに影をつける */
+    box-shadow: 3px 7px 13px -10px #65789f;
+    border-radius: 10px;
+}
+
+.rightbarWrapper {
+    padding: 5%;
+}
+
+.eventContainer {
+    display: flex;
+    align-items: center;
+}
+
+.starImg {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.eventImg {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.rightbarFriendList {
+    padding: 0;
+}
+
+.rightbarFriend {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.rightbarUsername {
+    margin-left: 10px;
+    
+}
+
+.rightbarFriendImg {
+    width: 100%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.rightbarProfileImgContainer {
+    position: relative;
+}
+
+.rightbarOnline {
+    position: absolute;
+    background-color: greenyellow;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    top: -5px;
+    right: -5px;
+    border: 2px solid white;
+}
+
+.promotionTitle {
+    font-weight: bold;
+}
+
+.promotionName {
+    margin-top: 0;
+}
+
+.promotionImg {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.rightbarTitle {
+    font-size: medium;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.rightbarInfoItem {
+    font-size: small;
+}
+
+.rightbarFollowings {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rightbarFollowing {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3px;
+}
+
+.rightbarFollowingImg {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
